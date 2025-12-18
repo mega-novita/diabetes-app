@@ -463,4 +463,5 @@ elif nav == "About":
     Dan pada bidang Kimia mengenai struktur elektronik logam transisi dan ion tanah jarang (rare-earth ions), khususnya untuk material fosfor merah.
     """)
     st.markdown("---")
-    st.caption("© 2024 Diabetes Prediction Project")
+
+    st.caption("© 2025 Diabetes Prediction Project")
