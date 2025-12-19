@@ -23,7 +23,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 # Mengatur judul tab browser, icon, dan layout halaman agar lebar (wide)
 st.set_page_config(
     layout="wide", 
-    page_title="Aplikasi Prediksi Diabetes punya Mega", 
+    page_title="Aplikasi Prediksi Diabetes", 
     page_icon="🩺"
 )
 
@@ -465,4 +465,5 @@ elif nav == "About":
     st.markdown("---")
 
     st.caption("© 2025 Diabetes Prediction Project")
+
 
