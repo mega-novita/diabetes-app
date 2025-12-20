@@ -98,11 +98,14 @@ elif nav == "Dataset":
         st.write("""
         **1. Tentang Apa Dataset Ini?**
                  
+        Dataset ini diambil dari platform Kaggle dengan url https://www.kaggle.com/datasets/mohankrishnathalla/diabetes-health-indicators-dataset
+        
         Dataset ini berisi data rekam medis pasien yang bertujuan untuk mendiagnosis atau memprediksi risiko penyakit Diabetes (Tipe 2). 
         
         Data ini menghubungkan kebiasaan hidup seseorang (makan, tidur, olahraga) 
         dengan hasil laboratorium medis mereka (gula darah, kolesterol) 
         untuk menentukan apakah mereka menderita diabetes atau tidak.
+
         """)
         st.write("""
         **2. Target Variable (Label/Kunci Jawaban)**
@@ -465,5 +468,6 @@ elif nav == "About":
     st.markdown("---")
 
     st.caption("© 2025 Diabetes Prediction Project")
+
 
 
